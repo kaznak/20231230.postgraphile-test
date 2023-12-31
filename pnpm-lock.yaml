@@ -23,6 +23,9 @@ importers:
 
   packages/postgraphile:
     dependencies:
+      dotenv:
+        specifier: ^16.3.1
+        version: 16.3.1
       postgraphile:
         specifier: 5.0.0-beta.18
         version: 5.0.0-beta.18(@dataplan/json@0.0.1-beta.12)(@dataplan/pg@0.0.1-beta.14)(grafast@0.1.1-beta.3)(grafserv@0.1.1-beta.5)(graphile-build-pg@5.0.0-beta.17)(graphile-build@5.0.0-beta.13)(graphile-config@0.0.1-beta.6)(graphql@16.8.1)(pg-sql2@5.0.0-beta.4)(pg@8.11.3)(tamedevil@0.0.0-beta.3)
@@ -243,6 +246,11 @@ packages:
     resolution: {integrity: sha512-58lmxKSA4BNyLz+HHMUzlOEpg09FV+ev6ZMe3vJihgdxzgcwZ8VoEEPmALCZG9LmqfVoNMMKpttIYTVG6uDY7A==}
     engines: {node: '>=0.3.1'}
     dev: true
+
+  /dotenv@16.3.1:
+    resolution: {integrity: sha512-IPzF4w4/Rd94bA9imS68tZBaYyBWSCE47V1RGuMrB94iyTOIEwRmVL2x/4An+6mETpLrKJ5hQkB8W4kFAadeIQ==}
+    engines: {node: '>=12'}
+    dev: false
 
   /ecdsa-sig-formatter@1.0.11:
     resolution: {integrity: sha512-nagl3RYrbNv6kQkeJIpt6NJZy8twLB/2vtz6yN9Z4vRKHN4/QZJIEbqohALSgwKdnksuY3k5Addp5lg8sVoVcQ==}
