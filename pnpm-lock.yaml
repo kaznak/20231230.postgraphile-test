@@ -8,6 +8,9 @@ importers:
 
   .:
     devDependencies:
+      '@tsconfig/node20':
+        specifier: ^20.1.2
+        version: 20.1.2
       prettier:
         specifier: ^3.1.1
         version: 3.1.1
@@ -57,6 +60,10 @@ packages:
 
   /@tsconfig/node16@1.0.4:
     resolution: {integrity: sha512-vxhUy4J8lyeyinH7Azl1pdd43GJhZH/tP2weN8TntQblOY+A0XbT8DJk1/oCPuOOyg/Ja757rG0CgHcWC8OfMA==}
+    dev: true
+
+  /@tsconfig/node20@20.1.2:
+    resolution: {integrity: sha512-madaWq2k+LYMEhmcp0fs+OGaLFk0OenpHa4gmI4VEmCKX4PJntQ6fnnGADVFrVkBj0wIdAlQnK/MrlYTHsa1gQ==}
     dev: true
 
   /@types/node@20.10.6:
